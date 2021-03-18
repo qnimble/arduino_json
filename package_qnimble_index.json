@@ -156,7 +156,7 @@
             },
             {
               "host": "i686-mingw32",
-              "url": "https://qnimble.com/static/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
+              "url": "https://github.com/qnimble/arduino_files/releases/download/a8a4aa6/gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
               "archiveFileName": "gcc-arm-none-eabi-9-2019-q4-major-win32.zip",
               "checksum": "SHA-256:2d64567621aa2bb1c7b9ddf36cc40600b8f2a1c7531e3ca5d78bd309a0bc131a",
               "size": "153486619"
@@ -193,7 +193,7 @@
           "size": 293139,
           "checksum": "SHA-256:520153d923a17df75599175f796f264b98cbaff436419d87306e3421bfb9e63b",
           "help": {
-            "online": "https://forum.qnimble.com"
+            "online": "https://qnimble.com"
           },
           "url": "https://github.com/qnimble/arduino_boards/releases/download/0.1.13/qNimble_iMXRT-0.1.13.tar.bz2",
           "toolsDependencies": [
