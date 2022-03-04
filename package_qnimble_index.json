@@ -217,6 +217,47 @@
               "size": "116802378"
             }
           ]
+        },
+        {
+          "name": "quarto-discovery",
+          "version": "v2.3.3",
+          "systems": [
+            {
+              "size": 1654519,
+              "checksum": "SHA-256:3d97b96c4f8938049989623e065a774c6e4720299bc40183d2f34de8da5befdc",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.3-linux-amd64.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-linux-amd64.tar.bz2"
+            },
+            {
+              "size": 1654538,
+              "checksum": "SHA-256:45c965a811837bc112cff30a61d7dab68d57f17204c58f9cef185a2c5e72260d",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.3-linux-i686.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-linux-i686.tar.bz2"
+            },
+            {
+              "size": 1834285,
+              "checksum": "SHA-256:6f1104ceeae00f620fda3133dbbb1e0ded40990e1b4b345963079a7a7b3e6572",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "quarto-discovery-v2.3.3-mac.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-mac.tar.bz2"
+            },
+            {
+              "size": 1733236,
+              "checksum": "SHA-256:ae6fd10326de69494c9345fc244c04a6804401cf414c5dfaca80eabf57d3a4bc",
+              "host": "i686-mingw32",
+              "archiveFileName": "quarto-discovery-v2.3.3-win32.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-win32.zip"
+            },
+            {
+              "size": 1789788,
+              "checksum": "SHA-256:c15a646fb1a3498ba6f0df25b2a1215b7d558a4e14c1e4628dbf4fdddd97efe5",
+              "host": "x86_64-mingw64",
+              "archiveFileName": "quarto-discovery-v2.3.3-win64.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-win64.zip"
+            }
+          ]
         }
       ],
       "platforms": [
@@ -257,6 +298,52 @@
               "packager": "qnimble",
               "name": "quarto-discovery",
               "version": "v2.3.0"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "1.1.0",
+          "archiveFileName": "qNimble_iMXRT-1.1.0.tar.bz2",
+          "size": 332021,
+          "checksum": "SHA-256:54c165653ca6da682ebfd3403e1af4cf3dbe3a58f4eb5a6209b3af28a93da9c0",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/1.1.0/qNimble_iMXRT-1.1.0.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.5"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.3"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
             }
           ]
         }
