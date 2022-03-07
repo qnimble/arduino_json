@@ -258,6 +258,88 @@
               "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.3/quarto-discovery-v2.3.3-win64.zip"
             }
           ]
+        },
+        {
+          "name": "qbossa",
+          "version": "1.9.6",
+          "systems": [
+            {
+              "size": 544882,
+              "checksum": "SHA-256:d5b73e8a491efca74a039d70122b6784c8f9dabe06398f321c91a6814f784e68",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "qbossac-1.9.6-linux-amd64.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.6/qbossac-1.9.6-linux-amd64.tar.bz2"
+            },
+            {
+              "size": 535568,
+              "checksum": "SHA-256:7f5d87a544359b57ec1b6fc2481d576d3337aa781c002e08c519d70ffaef5b77",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "qbossac-1.9.6-linux-i686.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.6/qbossac-1.9.6-linux-i686.tar.bz2"
+            },
+            {
+              "size": 47295,
+              "checksum": "SHA-256:bc331bcea7ec074d4e7388a16ba31df96a7fffb7fd89d2c0f5efea9b5ba75b00",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "qbossac-1.9.6-mac.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.6/qbossac-1.9.6-mac.tar.bz2"
+            },
+            {
+              "size": 780774,
+              "checksum": "SHA-256:402c6b7b3e0bc99318217e71d484ca60bfcc04b4cc5a4e0128c298921a5f98f2",
+              "host": "i686-mingw32",
+              "archiveFileName": "qbossac-1.9.6-win32.zip",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.6/qbossac-1.9.6-win32.zip"
+            },
+            {
+              "size": 771566,
+              "checksum": "SHA-256:7474c0a2d56f2d0e529c8e2611ef50c48d8668c2c8c868dcced19c8af881b06e",
+              "host": "x86_64-mingw64",
+              "archiveFileName": "qbossac-1.9.6-win64.zip",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.6/qbossac-1.9.6-win64.zip"
+            }
+          ]
+        },
+        {
+          "name": "quarto-discovery",
+          "version": "v2.3.4",
+          "systems": [
+            {
+              "size": 1655927,
+              "checksum": "SHA-256:13fced68a1d9cabe8fcb20f5355cf6b6f23404d2b1d4beb6ad688447f8b39f42",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.4-linux-amd64.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.4/quarto-discovery-v2.3.4-linux-amd64.tar.bz2"
+            },
+            {
+              "size": 1655957,
+              "checksum": "SHA-256:f786b927c77ab8edddeeb23932f64ef85c8bc2e431fc630f661a54917cff9891",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.4-linux-i686.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.4/quarto-discovery-v2.3.4-linux-i686.tar.bz2"
+            },
+            {
+              "size": 1835421,
+              "checksum": "SHA-256:de7c13718e4b9502eeb6973f0357a16de2d8924ff3ec70124ff27f352a1d6634",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "quarto-discovery-v2.3.4-mac.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.4/quarto-discovery-v2.3.4-mac.tar.bz2"
+            },
+            {
+              "size": 1733397,
+              "checksum": "SHA-256:cfb86ae96b3d9081ab969702384d57ee484dcbd64fcd81b5eaecedc4642ddc0d",
+              "host": "i686-mingw32",
+              "archiveFileName": "quarto-discovery-v2.3.4-win32.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.4/quarto-discovery-v2.3.4-win32.zip"
+            },
+            {
+              "size": 1790005,
+              "checksum": "SHA-256:40e5cdb5cda4553f8a6656e7e0ea51f1a6594630b9b1a8ea3186a8d673f93f2a",
+              "host": "x86_64-mingw64",
+              "archiveFileName": "quarto-discovery-v2.3.4-win64.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.4/quarto-discovery-v2.3.4-win64.zip"
+            }
+          ]
         }
       ],
       "platforms": [
@@ -384,6 +466,52 @@
               "packager": "qnimble",
               "name": "quarto-discovery",
               "version": "v2.3.3"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "1.2.1",
+          "archiveFileName": "qNimble_iMXRT-1.2.1.tar.bz2",
+          "size": 3155460,
+          "checksum": "SHA-256:7ab2b0ff637c848b7fcd055223ac70d0ab771330bcbcddf59bf4a33abca672a5",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/1.2.1/qNimble_iMXRT-1.2.1.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.4"
             }
           ],
           "discoveryDependencies": [
