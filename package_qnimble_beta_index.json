@@ -1159,6 +1159,52 @@
               "packager": "qnimble"
             }
           ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "1.5.4",
+          "archiveFileName": "qNimble_iMXRT-1.5.4.tar.bz2",
+          "size": 3171702,
+          "checksum": "SHA-256:11208814df85955792157597a806e621fb3a852e6db57cabd1e9d5563e633b78",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/1.5.4/qNimble_iMXRT-1.5.4.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.5"
+            }
+          ],
+          "discoveryDependencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
         }
       ]
     }
