@@ -422,6 +422,47 @@
               "url": "https://github.com/qnimble/serial-monitor/releases/download/v0.13.0/serial-monitor_v0.13.0_Windows_64bit.zip"
             }
           ]
+        },
+        {
+          "name": "quarto-discovery",
+          "version": "v2.3.6",
+          "systems": [
+            {
+              "size": 1659577,
+              "checksum": "SHA-256:8f448d98d5542c72b3e9166c191961a87932b3668438bbe9f6597731912ec883",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.6-linux-amd64.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.6/quarto-discovery-v2.3.6-linux-amd64.tar.bz2"
+            },
+            {
+              "size": 1659020,
+              "checksum": "SHA-256:b67e346ce40095bfbcc76b13ff589e9117ec7dc8d30b1941830869a75bfbc760",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "quarto-discovery-v2.3.6-linux-i686.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.6/quarto-discovery-v2.3.6-linux-i686.tar.bz2"
+            },
+            {
+              "size": 1722751,
+              "checksum": "SHA-256:5c817be242b2eb3e9348ac14b36c178da07441ae0d6006b2eeb108f4af39670f",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "quarto-discovery-v2.3.6-mac.tar.bz2",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.6/quarto-discovery-v2.3.6-mac.tar.bz2"
+            },
+            {
+              "size": 1875673,
+              "checksum": "SHA-256:da3f31eb47c8fa44484fbe4befa3461d8733759942f847098d581c439c640159",
+              "host": "i686-mingw32",
+              "archiveFileName": "quarto-discovery-v2.3.6-win32.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.6/quarto-discovery-v2.3.6-win32.zip"
+            },
+            {
+              "size": 1942448,
+              "checksum": "SHA-256:2c69413c3b43bd234603d1e25830e07d018f7759f42674588f2f622b0d0e7566",
+              "host": "x86_64-mingw64",
+              "archiveFileName": "quarto-discovery-v2.3.6-win64.zip",
+              "url": "https://github.com/qnimble/quarto-discovery/releases/download/v2.3.6/quarto-discovery-v2.3.6-win64.zip"
+            }
+          ]
         }
       ],
       "platforms": [
@@ -1698,6 +1739,57 @@
               "packager": "qnimble",
               "name": "quarto-discovery",
               "version": "v2.3.5"
+            },
+            {
+              "packager": "qnimble",
+              "name": "serial-monitor",
+              "version": "v0.13.0"
+            }
+          ],
+          "discoveryDemonpendencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "1.9.1+beta1",
+          "archiveFileName": "qNimble_iMXRT-1.9.1+beta1.tar.bz2",
+          "size": 3380654,
+          "checksum": "SHA-256:25f046845e048adf8f38f7d0af9d3cd97f4e7b6d8eb3ddc30d7a3a5e361e583c",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/1.9.1%2Bbeta1/qNimble_iMXRT-1.9.1%2Bbeta1.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.6"
             },
             {
               "packager": "qnimble",
