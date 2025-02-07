@@ -545,6 +545,47 @@
               "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.8/qbossac-1.9.8-win64.zip"
             }
           ]
+        },
+        {
+          "name": "qbossa",
+          "version": "1.9.9",
+          "systems": [
+            {
+              "size": 536309,
+              "checksum": "SHA-256:d9770b80f7e3c0fce27679808b9fdbc00e9deda5194d51e18ae1624d2381de8b",
+              "host": "x86_64-linux-gnu",
+              "archiveFileName": "qbossac-1.9.9-linux-amd64.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.9/qbossac-1.9.9-linux-amd64.tar.bz2"
+            },
+            {
+              "size": 525151,
+              "checksum": "SHA-256:e0d0a7bd864dadf64c2194e883761d13f3b48e39b8f3889ff794e055b9f6bc98",
+              "host": "i686-linux-gnu",
+              "archiveFileName": "qbossac-1.9.9-linux-i686.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.9/qbossac-1.9.9-linux-i686.tar.bz2"
+            },
+            {
+              "size": 47203,
+              "checksum": "SHA-256:d61eda5873461c385bf656087c1cc2f116b789cde9fed4bb9e285cd5e52a7370",
+              "host": "x86_64-apple-darwin14",
+              "archiveFileName": "qbossac-1.9.9-mac.tar.bz2",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.9/qbossac-1.9.9-mac.tar.bz2"
+            },
+            {
+              "size": 796744,
+              "checksum": "SHA-256:2e8aa44efe5443b12e0dfbe43cc9db85931c7bc309285239c50e120a1462a1d0",
+              "host": "i686-mingw32",
+              "archiveFileName": "qbossac-1.9.9-win32.zip",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.9/qbossac-1.9.9-win32.zip"
+            },
+            {
+              "size": 779636,
+              "checksum": "SHA-256:5c062a0203d459a22882a2b98366fbc8dde9c26bacfbf3ce1bb3c10c796c18af",
+              "host": "x86_64-mingw64",
+              "archiveFileName": "qbossac-1.9.9-win64.zip",
+              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.9/qbossac-1.9.9-win64.zip"
+            }
+          ]
         }
       ],
       "platforms": [
@@ -2372,6 +2413,57 @@
               "packager": "qnimble",
               "name": "qbossa",
               "version": "1.9.8"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "serial-monitor",
+              "version": "v0.13.0"
+            }
+          ],
+          "discoveryDemonpendencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "2.2.0+beta1",
+          "archiveFileName": "qNimble_iMXRT-2.2.0+beta1.tar.bz2",
+          "size": 3975010,
+          "checksum": "SHA-256:0f55dfb80899f93bff35fb6587b0c853d2e518fab0a13c66c774e2a025f05c1a",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/2.2.0%2Bbeta1/qNimble_iMXRT-2.2.0%2Bbeta1.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.9"
             },
             {
               "packager": "qnimble",
