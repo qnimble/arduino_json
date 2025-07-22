@@ -584,20 +584,6 @@
               "host": "x86_64-mingw64",
               "archiveFileName": "qbossac-1.9.11-win64.zip",
               "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.11/qbossac-1.9.11-win64.zip"
-            },
-            {
-              "size": 784408,
-              "checksum": "SHA-256:336867c8678fda4312c5fd486e37b4e951ff4dbc0f0fe51e7d9b96d78a7ce035",
-              "host": "i686-mingw32",
-              "archiveFileName": "qbossac-1.9.11A-win32.zip",
-              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.11/qbossac-1.9.11A-win32.zip"
-            },
-            {
-              "size": 771947,
-              "checksum": "SHA-256:a3580a28f09965ab0d5c7c096f15825060f0d079335c7f4cae1b6967d88dc7a9",
-              "host": "x86_64-mingw64",
-              "archiveFileName": "qbossac-1.9.11A-win64.zip",
-              "url": "https://github.com/qnimble/BOSSA/releases/download/1.9.11/qbossac-1.9.11A-win64.zip"
             }
           ]
         }
@@ -2044,6 +2030,57 @@
             "online": "https://qnimble.com/Quarto"
           },
           "url": "https://github.com/qnimble/arduino_boards/releases/download/2.2.2/qNimble_iMXRT-2.2.2.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.11"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "serial-monitor",
+              "version": "v0.13.0"
+            }
+          ],
+          "discoveryDemonpendencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "2.2.3",
+          "archiveFileName": "qNimble_iMXRT-2.2.3.tar.bz2",
+          "size": 3981207,
+          "checksum": "SHA-256:34ff3741274a549632e29205dd7e8583d882ad4b9c695fd7325fef0963e0a141",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/2.2.3/qNimble_iMXRT-2.2.3.tar.bz2",
           "toolsDependencies": [
             {
               "packager": "qnimble",
