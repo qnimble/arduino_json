@@ -3436,6 +3436,57 @@
               "packager": "qnimble"
             }
           ]
+        },
+        {
+          "boards": [
+            {
+              "name": "qNimble Quarto"
+            }
+          ],
+          "architecture": "imxrt",
+          "name": "qNimble iMXRT Boards",
+          "category": "qNimble",
+          "version": "2.5.0",
+          "archiveFileName": "qNimble_iMXRT-2.5.0.tar.bz2",
+          "size": 3994799,
+          "checksum": "SHA-256:8724f68f823cf0eb2ee6a136b5539d33fa4cd563da539933275e64357eb8c678",
+          "help": {
+            "online": "https://qnimble.com/Quarto"
+          },
+          "url": "https://github.com/qnimble/arduino_boards/releases/download/2.5.0/qNimble_iMXRT-2.5.0.tar.bz2",
+          "toolsDependencies": [
+            {
+              "packager": "qnimble",
+              "name": "CMSIS",
+              "version": "5.4.0"
+            },
+            {
+              "packager": "qnimble",
+              "name": "qbossa",
+              "version": "1.9.11"
+            },
+            {
+              "packager": "qnimble",
+              "name": "arm-none-eabi-gcc",
+              "version": "9-2019q4"
+            },
+            {
+              "packager": "qnimble",
+              "name": "quarto-discovery",
+              "version": "v2.3.6"
+            },
+            {
+              "packager": "qnimble",
+              "name": "serial-monitor",
+              "version": "v0.13.0"
+            }
+          ],
+          "discoveryDemonpendencies": [
+            {
+              "name": "quarto-discovery",
+              "packager": "qnimble"
+            }
+          ]
         }
       ]
     }
